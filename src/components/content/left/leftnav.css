@@ -1,0 +1,122 @@
+.leftnav{
+    flex: 0.15;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.left-profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.cover-photo{
+    background-color: aqua;
+    height: 50px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -25px;
+}
+
+.left-profile-name{
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.left-profile-skills{
+    font-size: 12px;
+    margin-top: 5px;
+    color: grey;
+    text-align: center;
+}
+
+hr{
+    width: 100%;
+    border-color: whitesmoke;
+    margin-top: 20px;
+}
+
+.connections{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    margin-top: 15px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.connections span{
+    color: rgb(30, 103, 151);
+}
+
+.network-growth{
+    display: flex;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.my-items{
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 10px ;
+}
+
+.left-profile-event{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+
+    border-radius: 10px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.left-profile-event p{
+    padding-left: 10px;
+    color: rgb(30, 103, 151);
+    margin-top: 10px;
+    font-size: 12px;
+}   
+
+.left-profile-event h5{
+    text-align: center;
+    color: grey;
+    font-size:16px;
+    margin-top: 10px;
+}
+
+
+
+
+@media screen  and (max-width: 1500px){
+    .leftnav{
+        flex: 0.2;
+    }
+}
+
+@media screen  and (max-width: 800px){
+    .media-connections{
+        display: none;
+    }
+
+    .leftnav{
+        margin-top: -60px;
+    }
+
+    .left-profile-event{
+        display: none;
+    }
+}
